@@ -1,0 +1,22 @@
+{
+  "name": "percel-setup",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "main": "index.js",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "clean:output": "rimraf dist",
+    "start": "parcel",
+    "build": "npm run clean:output && parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "rimraf": "^5.0.5"
+  }
+}

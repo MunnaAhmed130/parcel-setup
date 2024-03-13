@@ -2,15 +2,14 @@
   "name": "percel-setup",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.html",
   "main": "index.js",
   "targets": {
     "main": false
   },
   "scripts": {
     "clean:output": "rimraf dist",
-    "start": "parcel",
-    "build": "npm run clean:output && parcel build"
+    "start": "parcel src/pages/*.html",
+    "build": "npm run clean:output && parcel build src/pages/*.html"
   },
   "keywords": [],
   "author": "",

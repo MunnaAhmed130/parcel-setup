@@ -1,0 +1,30 @@
+:root {
+  --bg-color: rgb(116, 179, 79);
+}
+
+$color: rgb(14, 133, 30);
+
+body {
+  font-family: monospace;
+  background-color: var(--bg-color);
+  color: $color;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  h1 {
+    font-size: 3rem;
+  }
+
+  a {
+    display: block;
+    color: $color;
+    font-size: 2rem;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

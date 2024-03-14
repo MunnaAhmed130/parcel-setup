@@ -2,11 +2,13 @@
   --bg-color: rgb(116, 179, 79);
 }
 
+// $bg-color: rgb(116, 179, 79);
 $color: rgb(14, 133, 30);
 
 body {
   font-family: monospace;
   background-color: var(--bg-color);
+  // background-color: $bg-color;
   color: $color;
   margin: 0;
   display: flex;
@@ -16,6 +18,9 @@ body {
   height: 100vh;
   h1 {
     font-size: 3rem;
+    background: linear-gradient(to right, rgb(91, 139, 52), rgb(21, 110, 76));
+    color: transparent;
+    background-clip: text;
   }
 
   a {

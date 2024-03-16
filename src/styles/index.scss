@@ -5,6 +5,10 @@
 // $bg-color: rgb(116, 179, 79);
 $color: rgb(14, 133, 30);
 
+img {
+  width: 700px;
+}
+
 body {
   font-family: monospace;
   background-color: var(--bg-color);
@@ -16,6 +20,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+
   h1 {
     font-size: 3rem;
     background: linear-gradient(to right, rgb(91, 139, 52), rgb(21, 110, 76));
